@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Week of 16 Jan - 22 Jan"
+date:   2017-01-18 11:06:01 -0600
+---
+**What did you do this past week?**
+
+This past week we covered the syllabus. The class is interesting in that Professor Downing is trying to give us a very real-world like experience of how software engineering is to work. Up until right now, I've only had real world experience during internships. In my previous classes we have covered topics that focus around concepts, math, or statistics. I am excited to finally learn more about how to deliver a robust product to a client that handles any edge case properly and results in tangible outcomes in one's career.
+
+**What's in your way?**
+
+The only thing I'm concerned about in this class might be how detail oriented some of the testing procedures are. For example, in this past week I was quizzed over the creator of a language which I did not know even though I am decently versed in the language itself and have been working with it for the past three semesters. I do not know if that is how the tests will also be conducted, but I will make sure that I am prepared for whatever is coming up.
+
+**What will you do next week?**
+
+Next week I think we will be covering more differences between C++ and Java. Personally I am looking forward to that because I'm not completely familiar with Java and have rarely ever used it.
+
+**What's my experience of the class?**
+
+So far I'm concerned about how detail oriented the class will be as opposed to concept oriented when it comes to testing and grading.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+My tip of the week will be to pay attention to every detail in the class as it can be very useful.

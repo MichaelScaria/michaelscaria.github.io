@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Week of 30 Jan - 5 Feb"
+date:   2017-02-06 11:06:01 -0600
+---
+**What did you do this past week?**
+
+This past week I worked on optmizing my solution for Collatz. I realized that the cache I built wasn't fast enought to pass the last four tests on HackerRank. To pass them, I wrote a loop that iterated until 5,000,000 and printed out the index for everytime the max length was exceeded. In doing so, I was able to construct a meta cache to speed up the process for any input from HackerRank.
+
+**What's in your way?**
+
+Nothing is in my way right now.
+
+**What will you do next week?**
+
+Next week I will be learning about the Voting project. I found a partner to work together with, so I'm looking forward to that.
+
+**What's my experience of the class?**
+
+I was freaking out about getting everything done perfectly, so submitting the project was kind of stressful. That being said, now that I have done it once, I think doing it again for the following projects won't be that bad. I'm looking forward to focusing on coding more as opposed to the more operational side of the workflow.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+My tip of the week is to talk about isolating bugs that arise from development and production environments. Sometimes things work locally and don't on production or vice versa, my tip is to first make sure the environment variables are configured correctly. Often I've noticed certain keys aren't exported and can cause a lot of silent bugs that one won't notice until endpoints or features stop responding. I had this happen to a project I was working on and debugging was a nightmare until I started to watch log streams of both production and development at the same time.

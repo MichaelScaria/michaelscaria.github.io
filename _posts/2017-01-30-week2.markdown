@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Week of 23 Jan - 29 Jan"
+date:   2017-01-30 11:06:01 -0600
+---
+**What did you do this past week?**
+
+This past week we covered the new project Collatz. I think that the project on its own is pretty easy, however with all of the new techniques that make good software engineering practices, this project becomes slightly more complicated.
+
+**What's in your way?**
+
+Right now, I'm not really sure how everything is supposed to be connected together. I think I have a solution for the problem, but I need to figure out how to write tests for my solution and get all of these new technologies to work. For example, my output matches the test output, but for some reason, my `make test` command is failing when it runs `valgrind ./TestCollatz `. I guess I didn't set something up correctly, but I'll need to debug that command to hopefully get the test to pass.
+
+**What will you do next week?**
+
+Next week I will be wrapping up Collatz, reading about Continuous Integration, and possibly attending the engineering expo.
+
+**What's my experience of the class?**
+
+I'm excited to learn more about good software engineering practices. I've always heard about test driven development and startups using Travis CI, but never really went out of my way to do those things. I think that's mostly because the projects I work on are too small to need such a setup, but it is good practice to do consistently. The startup I'm interning at this summer (Affirm) uses Travis CI test all of their iOS work.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+My tip of the week is to point out how easy it is to write a blog from scratch. I've always wanted a personal site, but don't really see the need for a lot of fancy CSS/JQuery tricks to convey information about myself. I like how simple I've made my blog and strongly suggest doing something similar for a personal site.
