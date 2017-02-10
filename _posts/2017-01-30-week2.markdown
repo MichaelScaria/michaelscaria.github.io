@@ -3,6 +3,8 @@ layout: post
 title:  "Week of 23 Jan - 29 Jan"
 date:   2017-01-30 11:06:01 -0600
 ---
+![](/me.jpg)
+
 **What did you do this past week?**
 
 This past week we covered the new project Collatz. I think that the project on its own is pretty easy, however with all of the new techniques that make good software engineering practices, this project becomes slightly more complicated.

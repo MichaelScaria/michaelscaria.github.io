@@ -3,6 +3,8 @@ layout: post
 title:  "Week of 30 Jan - 5 Feb"
 date:   2017-02-06 11:06:01 -0600
 ---
+![](/me.jpg)
+
 **What did you do this past week?**
 
 This past week I worked on optmizing my solution for Collatz. I realized that the cache I built wasn't fast enought to pass the last four tests on HackerRank. To pass them, I wrote a loop that iterated until 5,000,000 and printed out the index for everytime the max length was exceeded. In doing so, I was able to construct a meta cache to speed up the process for any input from HackerRank.

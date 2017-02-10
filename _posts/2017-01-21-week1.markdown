@@ -3,6 +3,8 @@ layout: post
 title:  "Week of 16 Jan - 22 Jan"
 date:   2017-01-18 11:06:01 -0600
 ---
+![](/me.jpg)
+
 **What did you do this past week?**
 
 This past week we covered the syllabus. The class is interesting in that Professor Downing is trying to give us a very real-world like experience of how software engineering is to work. Up until right now, I've only had real world experience during internships. In my previous classes we have covered topics that focus around concepts, math, or statistics. I am excited to finally learn more about how to deliver a robust product to a client that handles any edge case properly and results in tangible outcomes in one's career.
