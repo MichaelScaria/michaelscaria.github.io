@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Week of 6 Feb - 12 Feb"
+date:   2017-02-11 16:12:01 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+This past week I started working on Voting. Matthew Curtis and I spent a lot of time parsing the code input and now we finally are processing the data properly for any input. Yesterday we started processing the data but after a couple hours our minds ran into a wall thinking about how we can optimize our solution because it seems like our algorithm has a bad time complexity. Today we were able to finish the algorithm and get the correct output.
+
+**What's in your way?**
+
+We are trying to figure out if the syntax we are using to pass 2 dimensional array by reference is the best way. The syntax we found online tells us to format the argument like, "(&arg_name)[dim][dim]" which looks plain ugly. We're also trying to figure out if our method of returning names works for ties. There seems to be an issue with running make if our output is correct but we think it might be because we don't have any tests right now.
+
+**What will you do next week?**
+
+Next week we will finish Voting. Our first task will be to make sure multiple names can be returned.
+
+**What's my experience of the class?**
+
+I spent most of my Friday at a coffee shop with Matthew trying to make sure we understand the problem and then writing a solution. Even though I was totally worn out at the end, I felt really productive and enjoyed the question!
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+My tip of the week is to remind everyone to clear the variables they use in C++. For example we declared a variable that was supposed to be the max of numbers in an array, but since we didn't set it to anything initially, it was pointing to garbage memory that resulted in a higher number and therefore was the max of any number in the array. That led to some problems so I thought I'd remind everyone!
