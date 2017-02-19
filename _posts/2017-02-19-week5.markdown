@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Week of 13 Feb - 19 Feb"
+date:   2017-02-19 13:37:01 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+This past week I finished the algorithm for Voting. Turns out, we were eliminting our candidates incorrectly. I thought we were supposed to eliminate everyone who didn't win/tie for first place, but instead we are supposed to eliminate the candidate(s) with the fewest votes. Then we wrote tests and also pulled in tests from other students public test repos to identify any bugs in our program. Unsurprisingly, there were a lot of bugs (the misinterpretation I mentioned above was found because of this). We also worked on the optimization after we passed all the HackerRank tests and was able to optimize our solution by using an array of int vectors to group a candidate's ballots.
+
+**What's in your way?**
+
+Nothing as of right now.
+
+**What will you do next week?**
+
+This week I am going to start compiling notes for the test in less than two weeks. I want to make sure I understand all the edge cases for pointer questions and the types of iterators when using generics.
+
+**What's my experience of the class?**
+
+I really liked working on Voting. My mind felt fried for the couple days we worked on it, but the end result was extremely rewarding! In class, it's cool to see how anonymous functions work because I've only used it in higher-level languages like Obj-C, Swift and Javascript.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+My tip of the week talk about environment variables. A lot of codebases contain strings that are keys or tokens to APIs and results in a security hole that can be exploited to impersonate the client. Instead, one should store sensitive keys in environment variables and access them securely. By storing the information in the environment, one can ensure that no one else who gets a copy of the code can impersonate the client.
