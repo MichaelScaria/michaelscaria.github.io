@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Week of 20 Feb - 26 Feb"
+date:   2017-02-25 15:50:01 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+This past week I implemented a root mean square error function. We spent a lot of time really understand how initialization, assignment and destructor works in C++ and Java. Before this week, I only knew about refinement overriding, I didn't know it was possible to have a class completely replace the original function. I also thought it was interesting how using const in the copy initializer argument list will allow us to only have to make one copy of the value we are initializing the variable to.
+
+**What's in your way?**
+
+Nothing as of right now.
+
+**What will you do next week?**
+
+I'm going home on Tuesday and returning Thursday afternoon for my mom's birthday, I plan on studying for the midterm all week including while I'm home.
+
+**What's my experience of the class?**
+
+I really like how we are becoming more aware of all the functionality of C++ that we have always taken for granted. I wish I took this class before my computer graphics class last semester as it would've helped me optimize some of the solutions in the class.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+My tip of the week about passing around structs. I thought about this as a result of the some of the conversations in the past classes. A bug I once had in a animation project I was working was simply a result of passing a massive struct to a routine that was called sixty times a second. As soon as I started to pass it in via reference, the program sped up and started working as expected. The takeaway is that always make sure you aren't making copies of large objects if you feel like performance is taking a hit because sometimes the bug lies in the computation we don't explicitly write.
