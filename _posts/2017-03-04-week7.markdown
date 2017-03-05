@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Week of 27 Feb - 4 Mar"
+date:   2017-03-04 15:50:01 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+This past week I studied for the midterm on Thursday. I made a list of material I would need to review and went through them this week. Along with that I had to go home to Dallas to visit my mom for her birthday on Wednesday, so that put a constraint on my time. Outside of studying, this past week I worked on this project where I pulled out data from a freeform data blob for each user on the backend and made a table in postgreSQL to keep track of the instances in the array by id. It was pretty cool being able make the data structure of the project more stable and secure instead of just encrypting a JSON object and storing it as a data blob on the backend.
+
+**What's in your way?**
+
+Nothing as of right now.
+
+**What will you do next week?**
+
+This week I am working on using the concrete instances of the data I mentioned earlier to trigger local notifications on a user's device. The reason I cannot send remote notifications from the server to the device is because we want the notifications to fire even if the device is offline. The system I am going to implement will pull the objects to fire daily notifcations everytime the device is connected to the internet, and repeat the notification intervals (depending on whatever state the object is) every day until the next pull from the backend, where it will clear all the queued notifications and reset queue them based on the new objects.
+
+**What's my experience of the class?**
+
+I really like how we are learning more about the intricate details of C++. Although I'm not entirely sure how necessary it is to learn things that can be easily confirmed on a computer, I don't see anything wrong with learning the small nuances.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+My tip of the week is to studying extremely carefully for the midterms. Try rewriting functions discussed in class as a way to remember which functions return a value as opposed to a reference and testing and etc.
