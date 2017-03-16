@@ -7,7 +7,7 @@ date:   2017-03-12 15:50:01 -0600
 
 **What did you do this past week?**
 
-I worked on understanding the math of allocator problem on hacker rank. Initially I didn't understan d how the sentinels were supposed to be set up, but after the examples on problem were posted it made more sense to me. Along with that, I've been working on setting up a cron job for a project I'm working on to create medication reminders on an app called Docket that I'm the lead iOS engineer for. 
+I worked on understanding the math of allocator problem on hacker rank. Initially I didn't understand how the sentinels were supposed to be set up, but after the examples on problem were posted it made more sense to me. Along with that, I've been working on setting up a cron job for a project I'm working on to create medication reminders on an app called Docket that I'm the lead iOS engineer for. 
 
 **What's in your way?**
 
