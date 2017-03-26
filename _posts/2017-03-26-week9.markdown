@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Week of 20 Mar - 26 Mar"
+date:   2017-03-26 14:11:47 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+I worked on the allocator project on my own. I was late to finding a partner so I figured working on it on my own would probably be my best bet on finishing on time. I started working on Tuesday and managed to get tests 0, 2, and 4 passing by Wednesday evening. However, I wasn't able to pass 1 and 3 until I found an error in the Hacker Rank prompt. Although we were told there would be up to 50 requests per test, our solution was actually being tested with more requests per test, which made the fix for me as simple as changing a number. Then, I updated the unit tests and set up Travis CI only to realize that none of the Travis CI builds were passing because of some sort of clang error. After going to office hours on Friday, Professor Downing agreed that the failed build was a result of the starter code we were given and gave me the okay to ignore that (*huge sigh of relief). 
+
+**What's in your way?**
+
+Nothing is in my way right now.
+
+**What will you do next week?**
+
+I'm going to work on Docket again to allow doctors to send encrypted messages to their patients and alert them via push notifications.
+
+
+**What's my experience of the class?**
+
+I really enjoyed working on this project. That being said, even though I like to solve the problems, I don't like all of the extra work I have to put in to make sure all the tests are passing (I know, I know, it's good practice).
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+Make sure you get a working build of Travis CI before you start writing code. Additional tip, make sure all the inputs are what you expect them to be by using asserting them.
