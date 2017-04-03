@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Week of 27 Mar - 2 Apr"
+date:   2017-04-02 23:00:05 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+I worked on setting up a beta and production-ready push notification feature for Docket. This involved provisioning development and production certificates on Apple Developer, securely storing then on AWS S3 with unique keys stored as environment variables. By doing that, the code remains the same for beta and production while using entirely different PEM files. I also worked on a resdesign for the home page of the mobile app along with changes for the questions we asked the patients.
+
+**What's in your way?**
+
+To test production push notifications Apple stipulates that the build must be built for production. There are two ways that I know to do this: either create an ad-hoc build or release the build through TestFlight. I chose the latter because I didn't want to create new ad-hoc provisioning profiles (it's been so many years Apple, make this easy for us!), which requires me to send the build to their beta app review team (which takes about a day or so to review). I'm currently waiting for the build to be approved so I can test production notifications.
+
+**What will you do next week?**
+
+I'm going to start working on Darwin and submit it by Thursday.
+
+
+**What's my experience of the class?**
+
+Darwin seems pretty interesting. It's like a simpler version digital evolution (a topic I'm interested in).
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+On Tuesday, both dev and prod Docket went down because of a minor bug (a missing parentheses). Because the web server I use locally (WEBrick) didn't complain about it, I didn't notice it until everything went down. Puma, the rails web server Heroku uses, was not very happy about the missing parentheses and kept crashing everytime it restarted. It was super annoying but I highly recommend synching up web servers so that issue never occurs.
