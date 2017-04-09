@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Week of 3 Apr - 9 Apr"
+date:   2017-04-09 20:40:05 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+I worked on the Darwin project all week. My partner Jin and I started by working on a theoretically UML diagram that didn't use any setters and getters. To be honest, I don't think the complete lack of setters and getters was a great idea because it required us to pass around objects unnecessarily. I didn't like how our Instruction instance was aware of the mapping for the grid, but we couldn't think of a way to not allow it to be aware. Also, I didn't know about the protocol for handling creatures with the same position, so my misinterpretation slowed me down a bit.
+
+Along with Darwin, I worked on pushing the latest release for Docket to production. After some minor bugs, I submitted the app to be processed for the App Store yesterday and approved all of the backend changes on our AWS Code Pipeline.
+
+**What's in your way?**
+
+Nothing is in my way right now.
+
+**What will you do next week?**
+
+I'm going to start working on making all of Docket's data FHIR compliant, as of right now only some of the data is FHIR compliant.
+
+
+**What's my experience of the class?**
+
+It's fairly the same, this project took me longer than I expected.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+Write asserts, a lot of them. They will save you a lot of time. I spent a good bit of time trying to figure out why my output for Darwin wasn't correct until I realized that there were creatures with duplicate positions. After an hour of trying to figure out what was going on, I put an assert to make sure no creature was being overrided and that's where I realized what my issue was.
