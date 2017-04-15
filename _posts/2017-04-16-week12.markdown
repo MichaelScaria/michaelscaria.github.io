@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Week of 10 Apr - 16 Apr"
+date:   2017-04-10 11:48:34 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+This week I pulled a project named Throttle off the back burner to work on for a client. Throttle is a particularly bug-riddled project and so I never really wanted to work on it. That being said, I feel like digging through the bugs on the backend was a mind-stimulating task as I didn't have much to do this week and wanted to wrap the milestone regarding some bugs. Throttle uses a service called Yodlee to handle bank account authentication and API requests so I was working on the communication between Throttle's Yodlee modules and Yodlee's API to allow Throttle users to add their bank accounts on the app. After talking to Yodlee's developer customer service (which is about the worst customer service I have ever dealt with and partly is the reason this project was on the back burner), we realized that Yodlee itself has some issues with their API and worked around that to fix some bugs. I was able to finally allow users to add their accounts which was a pretty impressive feat because the client has been trying to get this feature to work for months.
+
+**What's in your way?**
+
+Throttle uses a proxy service called Fixie to communicate with Yodlee because Yodlee has IP whitelisting and Throttle is hosted on Heroku, which means Throttle will not have a static outbound IP. Fixie's free tier caps the number of requests at 500 a month and so I need to get the client to pay $5/mo to bump the limit up to 2,500 requests a month while Throttle is in development mode.
+
+**What will you do next week?**
+
+I'm going to start working on Life.
+
+
+**What's my experience of the class?**
+
+It's fairly the same, excited to finish the last project.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+Never underestimate how much logging variables can expedite the debugging process.
