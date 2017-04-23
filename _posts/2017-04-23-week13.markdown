@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Week of 17 Apr - 23 Apr"
+date:   2017-04-16 11:48:34 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+This week I worked on the final project for this class. Surprisingly, I was able to pass all of the HackerRank tests in less than a day after starting. It was helpful that I got to use Darwin as scaffolding for this project and it is probably what helped me finish so quickly. I think our solution was pretty clever in that we didn't have to change from after we were passing the Conway tests to passing Fredkin and Cell tests.
+
+I started working on a new project called Stor that is like an AirBnb for storage. I took this project on to offset costs in living in San Francisco this summer. 
+
+**What's in your way?**
+
+I also met with the Throttle clients to wrap the current milestone up. They want to fix features that broke before I came onboard, which is definitely a scope creep in regards to the milestone I'm assigned to work on.
+
+**What will you do next week?**
+
+I'm going to work on making all of the user data on Docket FHIR compliant, work on setting up more of the UI for Stor and start studying for the final test in this class.
+
+**What's my experience of the class?**
+
+It's fairly the same, glad to be done with all of the projects. I'm kind of nervous for the final test since I didn't perform as well as I wanted to on the previous test.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+Sketch (https://www.sketchapp.com) is a cool tool to look at UI mockups. It makes the creation of wireframes super easy and useful to others to develop off of. They have a education discount for students so make sure to take advantage of that!
