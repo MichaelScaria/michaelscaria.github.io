@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Week of 17 Apr - 23 Apr"
-date:   2017-04-16 11:48:34 -0600
+date:   2017-04-23 16:12:34 -0600
 ---
 ![](/me.jpg)
 
