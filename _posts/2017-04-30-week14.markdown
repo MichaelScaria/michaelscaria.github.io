@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Week of 24 Apr - 30 Apr"
+date:   2017-04-30 6:11:44 -0600
+---
+![](/me.jpg)
+
+**What did you do this past week?**
+
+This past week I worked on rewriting the entire patient data serialization process in Docket to adhere to our new schema that is FHIR compliant. It took quite a chunk of time as I as to make sure I covered every possible question. I also had to fix an animation bug in Docket to prevent make a series of animations fluid.
+
+I wasn't able to do as much as I wanted this week. I spent a lot of time combing craigslist for a place that I could live in the summer. After many painful hours, I finally found a place to stay for my internship in San Francisco. It is in the Richmond District, so it's fairly safe (there is a police station next door) and there are a lot of fun places such as the Golden Gate park nearby.
+
+**What's in your way?**
+
+I have so much to do this week, yet so little time.
+
+**What will you do next week?**
+
+I'm going to finish writing the FHIR compliant code, work on two projects due tomorrow and then start studying for a test on Wednesday and the test in this class on Thursday.
+
+**What's my experience of the class?**
+
+It's fairly the same. Now that the test is approaching, I need to focus on doing better on it than I did on the previous test. I'm going to make sure I can study each day for this.
+
+**What's my pick-of-the-week or tip-of-the-week?**
+
+Whenver you are validating a schema you wrote for JSON, if you are doing it manually, make sure to remove any extraneous fields. This can prevent malicious attackers from passing around data that shouldn't be in the JSON.
