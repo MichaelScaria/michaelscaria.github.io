@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Final Post"
+date:   2017-05-07 17:40:44 -0600
+---
+![](/me.jpg)
+
+Coming into OOP, I was expecting the class to cover solving programming problems that we've encountered in previous classes. Though our projects did exactly that, I enjoyed how detailed we got into the methodology especially with the topics covered closer to the end of the semester. I was able to learn more, but I was not a fan about how thoroughly we were expected to memorize the content (although that just might be me complaining haha). The projects were super fun, sometimes I would just sit down and not stop working on the project until it was finished. I never viewed the projects as homework, and looked forward to working on them. I didn't like have to attend every single class but Downing does a great job of keeping the content engaging. I would recommend this class if a student is interested in learning more behind the mechanics in C++ or looking for a low-difficulty, medium-workload upper division elective.
